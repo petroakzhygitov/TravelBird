@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES"
+            buildForTesting = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "91174E3A1C350EC800BED921"
+               BuildableName = "NestTravelTests.xctest"
+               BlueprintName = "NestTravelTests"
+               ReferencedContainer = "container:NestTravel.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "91174E3A1C350EC800BED921"
+               BuildableName = "NestTravelTests.xctest"
+               BlueprintName = "NestTravelTests"
+               ReferencedContainer = "container:NestTravel.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "NestSDKAccessTokenCacheSpec">
+               </Test>
+               <Test
+                  Identifier = "NestSDKAccessTokenSpec">
+               </Test>
+               <Test
+                  Identifier = "TBDUtilsSpec">
+               </Test>
+               <Test
+                  Identifier = "TBDWeatherServiceDataParserSpec">
+               </Test>
+               <Test
+                  Identifier = "TBDWeatherServiceSpec">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO">
+   </LaunchAction>
+</Scheme>

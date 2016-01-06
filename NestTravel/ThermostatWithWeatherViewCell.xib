@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="ThermostatWithWeatherViewCellIdentifier" rowHeight="200" id="Oct-sc-5ut" customClass="ThermostatWithWeatherViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Oct-sc-5ut" id="Gc2-wc-f5X">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2zr-Wu-Yut">
+                        <rect key="frame" x="0.0" y="189" width="600" height="10"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="zun-qY-jxg"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It feels like your basement is in Dehli! Tap to find out more!" lineBreakMode="middleTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEZ-XB-b6h">
+                        <rect key="frame" x="15" y="15" width="570" height="23.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UI9-FR-4TT">
+                        <rect key="frame" x="405" y="134.5" width="180" height="40"/>
+                        <color key="backgroundColor" red="0.0" green="0.67450980390000004" blue="0.93333333330000001" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="CFP-eI-78N"/>
+                            <constraint firstAttribute="width" constant="180" id="FYm-eU-KXW"/>
+                        </constraints>
+                        <state key="normal" title="Feels like what?">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="weatherDetailsButtonTouchUpInsideAction:" destination="Oct-sc-5ut" eventType="touchUpInside" id="zEn-dZ-rTo"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="CEZ-XB-b6h" firstAttribute="top" secondItem="Gc2-wc-f5X" secondAttribute="top" constant="15" id="1uw-Ax-nne"/>
+                    <constraint firstAttribute="trailing" secondItem="CEZ-XB-b6h" secondAttribute="trailing" constant="15" id="3KO-dO-Zt3"/>
+                    <constraint firstItem="2zr-Wu-Yut" firstAttribute="leading" secondItem="Gc2-wc-f5X" secondAttribute="leading" id="A2b-xD-Wj4"/>
+                    <constraint firstItem="CEZ-XB-b6h" firstAttribute="leading" secondItem="Gc2-wc-f5X" secondAttribute="leading" constant="15" id="JWe-JQ-Ryt"/>
+                    <constraint firstAttribute="trailing" secondItem="2zr-Wu-Yut" secondAttribute="trailing" id="KY0-WR-j3c"/>
+                    <constraint firstAttribute="bottom" secondItem="UI9-FR-4TT" secondAttribute="bottom" constant="25" id="LD5-ur-chE"/>
+                    <constraint firstAttribute="trailing" secondItem="UI9-FR-4TT" secondAttribute="trailing" constant="15" id="Nej-Um-5J8"/>
+                    <constraint firstAttribute="bottom" secondItem="2zr-Wu-Yut" secondAttribute="bottom" id="jYj-BO-w34"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.1215686275" green="0.1215686275" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="weatherDetailsButton" destination="UI9-FR-4TT" id="brg-c5-UPq"/>
+                <outlet property="weatherDetailsLabel" destination="CEZ-XB-b6h" id="79l-qV-Gbb"/>
+                <outlet property="weatherDetailsView" destination="2zr-Wu-Yut" id="bPT-8Y-eiZ"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
