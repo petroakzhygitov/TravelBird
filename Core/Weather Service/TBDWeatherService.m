@@ -1,7 +1,7 @@
 #import <ReactiveCocoa/RACSignal.h>
 #import "TBDWeatherService.h"
 #import "RACSubscriber.h"
-#import "TBDWeatherServiceDataParserTests.h"
+#import "TBDWeatherServiceDataParser.h"
 
 #pragma mark macros
 
