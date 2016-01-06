@@ -1,5 +1,5 @@
 #import <HTMLReader/HTMLDocument.h>
-#import "TBDWeatherServiceDataParserTests.h"
+#import "TBDWeatherServiceDataParser.h"
 #import "HTMLSelector.h"
 #import "TBDWeatherData.h"
 
