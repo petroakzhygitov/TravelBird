@@ -41,9 +41,9 @@
 + (NSAttributedString *)randomAttributedStringWithWeatherData:(TBDWeatherData *)weatherData andThermostatName:(NSString *)thermostatName {
     NSArray *textsArray = @[@"The temperature in your %thermostat_name% is %temperature%. The same temperature is in %city_name% now!",
             @"Your %thermostat_name% feels like %city_name%! Its %temperature% there!",
-            @"Have you been in %city_name%? Go visit your %thermostat_name% and feel same %temperature%!",
+            @"Have you been to %city_name%? Go visit your %thermostat_name% and feel same %temperature%!",
             @"%city_name% welcomes you right from your %thermostat_name%! Get your favourite %temperature% there!",
-            @"Your %thermostat_name% is right in the heart of %city_name%! Exactly %temperature% there!"];
+            @"Your %thermostat_name% is right in the heart of %city_name%! It's exactly %temperature% there!"];
 
     NSUInteger randomIndex = arc4random() % textsArray.count;
     NSString *htmlString = textsArray[randomIndex];
@@ -74,7 +74,7 @@
 }
 
 + (NSString *)randomDetailsButtonTitleString {
-    NSArray *titlesArray = @[@"Where is it?", @"Never been there?", @"Never heard about?", @"Want to discover?", @"How to get there?"];
+    NSArray *titlesArray = @[@"Where is it?", @"Never been there?", @"Never heard of it?", @"Wanna discover?", @"How to get there?"];
     NSUInteger randomIndex = arc4random() % titlesArray.count;
 
     return titlesArray[randomIndex];
