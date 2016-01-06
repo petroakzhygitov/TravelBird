@@ -231,7 +231,7 @@ static const int kCellRowHeight = 200;
 }
 
 - (TBDTravelSuggestion *)p_generateSuggestionForThermostat:(NestSDKThermostat *)thermostat {
-    NSInteger roundTemperature = @(thermostat.target_temperature_c).integerValue;
+    NSInteger roundTemperature = @(thermostat.ambient_temperature_c).integerValue;
     NSArray *sameWeatherArray = _weatherDataDictionary[@(roundTemperature)];
 
     NSUInteger randomIndex = arc4random() % sameWeatherArray.count;
