@@ -79,10 +79,10 @@
                                 </constraints>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dsv-0D-Osz" userLabel="Loading Data View">
-                                <rect key="frame" x="155" y="207" width="290" height="186"/>
+                                <rect key="frame" x="155" y="265" width="290" height="70"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading Data" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w1U-4G-hdF" userLabel="Loading Data Label">
-                                        <rect key="frame" x="0.0" y="43" width="290" height="100"/>
+                                        <rect key="frame" x="0.0" y="-15" width="290" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="9vl-5k-HbR"/>
                                         </constraints>
@@ -94,7 +94,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="w1U-4G-hdF" secondAttribute="trailing" id="4a4-ng-DHv"/>
-                                    <constraint firstAttribute="height" constant="186" id="8e3-ai-pUP"/>
+                                    <constraint firstAttribute="height" constant="70" id="8e3-ai-pUP"/>
                                     <constraint firstAttribute="width" constant="290" id="RiH-Zz-3dk"/>
                                     <constraint firstItem="w1U-4G-hdF" firstAttribute="leading" secondItem="dsv-0D-Osz" secondAttribute="leading" id="XdM-7V-fSO"/>
                                     <constraint firstItem="w1U-4G-hdF" firstAttribute="centerX" secondItem="dsv-0D-Osz" secondAttribute="centerX" id="en4-KD-mMl"/>
