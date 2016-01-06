@@ -19,11 +19,11 @@
 		91174E351C350EC800BED921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91174E331C350EC800BED921 /* LaunchScreen.storyboard */; };
 		D7C0208547FBBD2F9E92A85B /* NestSDKFirebaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0236A81A23822E9A904DD /* NestSDKFirebaseManager.m */; };
 		D7C020A8A8F9101900976F3A /* TBDWeatherServiceDataParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C025D9AAE630E31D1AC6FC /* TBDWeatherServiceDataParserTests.m */; };
+		D7C0216730452AEDA81062DB /* HTMLAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0213F556F989FE6E925AD /* HTMLAttributedString.m */; };
 		D7C0231396D4293CD2D720D1 /* NestSDKSmokeCOAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C02C81F7D305326B3BF881 /* NestSDKSmokeCOAlarm.m */; };
 		D7C0231B4BF2079EEEB1BDD2 /* NestSDKStructuresManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C028F9739405FBB6837B76 /* NestSDKStructuresManager.m */; };
 		D7C023C08E1E22320B36620E /* NestSDKAuthorizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C027989ADDB4A1B8312E22 /* NestSDKAuthorizationManager.m */; };
 		D7C023D65DC4103B493ED768 /* NestSDKRESTServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C02759A7683AB8E256E996 /* NestSDKRESTServiceTests.m */; };
-		D7C024FBE2D7E4D3AE61CDEF /* HTMLAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C02F0F814A47867B60313D /* HTMLAttributedString.m */; };
 		D7C025534AAD67F0078DDC34 /* TBDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C028BB986F3EB9CF58BD37 /* TBDUtils.m */; };
 		D7C0269DC6B7E0DE9ACAD2FA /* UIColor+NestBlue.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C02560B555FAF27D76597E /* UIColor+NestBlue.m */; };
 		D7C027C4B28E10A5507B3C15 /* TestsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C02B95D198DE9366695B1B /* TestsAppDelegate.m */; };
@@ -79,6 +79,7 @@
 		91174E411C350EC800BED921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		987FD573E46A5694BBDD4339 /* Pods-NestTravelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestTravelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NestTravelTests/Pods-NestTravelTests.release.xcconfig"; sourceTree = "<group>"; };
 		D7C02052A7160F3064C2DBE9 /* NestSDKAccessTokenTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestSDKAccessTokenTests.m; sourceTree = "<group>"; };
+		D7C0213F556F989FE6E925AD /* HTMLAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLAttributedString.m; sourceTree = "<group>"; };
 		D7C022190F0D4D84A8DFBC00 /* TBDUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBDUtils.h; sourceTree = "<group>"; };
 		D7C0225A91104E31E3FA9FF4 /* NestSDKApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestSDKApplicationDelegate.h; sourceTree = "<group>"; };
 		D7C022CB026BBD9A93F0A04E /* TestsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestsAppDelegate.h; sourceTree = "<group>"; };
@@ -88,14 +89,12 @@
 		D7C0243FBF0BF1F31A988780 /* TBDWeatherServiceDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBDWeatherServiceDataParser.m; sourceTree = "<group>"; };
 		D7C0244D0C9113D899F6BC5F /* TBDWeatherServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBDWeatherServiceTests.m; sourceTree = "<group>"; };
 		D7C0246E6A3EEE6B1AB39AEB /* TBDWeatherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBDWeatherService.m; sourceTree = "<group>"; };
-		D7C024886B2F740AC9A4800F /* HTMLAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLAttributedString.h; sourceTree = "<group>"; };
 		D7C02493FC8FA01B6880303C /* TBDWeatherData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBDWeatherData.m; sourceTree = "<group>"; };
 		D7C0253A42C997732EA86BC1 /* UIColor+NestBlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NestBlue.h"; sourceTree = "<group>"; };
 		D7C02560B555FAF27D76597E /* UIColor+NestBlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NestBlue.m"; sourceTree = "<group>"; };
 		D7C025B9EF99FBFD1AF2057C /* NestSDKStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestSDKStructure.m; sourceTree = "<group>"; };
 		D7C025C7B0D400A6AC980F07 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		D7C025D9AAE630E31D1AC6FC /* TBDWeatherServiceDataParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBDWeatherServiceDataParserTests.m; sourceTree = "<group>"; };
-		D7C025E99390F61353989593 /* TBDWeatherServiceDataParserTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBDWeatherServiceDataParserTests.h; sourceTree = "<group>"; };
 		D7C025ED2B139B8F30673875 /* TBDTravelSuggestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBDTravelSuggestion.h; sourceTree = "<group>"; };
 		D7C025F70A155D407352622C /* NestSDKAuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestSDKAuthorizationViewController.m; sourceTree = "<group>"; };
 		D7C0268F419C9391D1004767 /* NestSDKStructuresManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestSDKStructuresManager.h; sourceTree = "<group>"; };
@@ -107,6 +106,7 @@
 		D7C028F9739405FBB6837B76 /* NestSDKStructuresManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestSDKStructuresManager.m; sourceTree = "<group>"; };
 		D7C0297AFDE6E2A3E53F62AC /* NestSDKThermostatsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestSDKThermostatsManager.m; sourceTree = "<group>"; };
 		D7C0298C4F475BE346E3C708 /* NestSDKApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestSDKApplicationDelegate.m; sourceTree = "<group>"; };
+		D7C029CA97EF8A0E304D2C12 /* TBDWeatherServiceDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBDWeatherServiceDataParser.h; sourceTree = "<group>"; };
 		D7C029E4CF9E610C747ED168 /* TBDWeatherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBDWeatherData.h; sourceTree = "<group>"; };
 		D7C02A7873F602866A70FEE3 /* NestSDKAuthorizationManagerAuthorizationResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestSDKAuthorizationManagerAuthorizationResult.m; sourceTree = "<group>"; };
 		D7C02B041E7114F6AAAF43C0 /* NestSDKAuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestSDKAuthorizationViewController.h; sourceTree = "<group>"; };
@@ -121,11 +121,11 @@
 		D7C02CD65F77E128A03FFEFF /* NestSDKAccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestSDKAccessToken.m; sourceTree = "<group>"; };
 		D7C02CE569F071842743A5F0 /* TBDUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBDUtilsTests.m; sourceTree = "<group>"; };
 		D7C02D0395993B696B6D7705 /* NestSDKStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestSDKStructure.h; sourceTree = "<group>"; };
+		D7C02D2CB8578035612A8F7A /* HTMLAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLAttributedString.h; sourceTree = "<group>"; };
 		D7C02D931BEB6514F0012E0B /* TBDTravelSuggestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBDTravelSuggestion.m; sourceTree = "<group>"; };
 		D7C02DDBD8C3BFB81341CB08 /* NestSDKAccessTokenCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestSDKAccessTokenCache.h; sourceTree = "<group>"; };
 		D7C02DDC6DE0F8B806ACB25D /* NestSDKThermostatsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestSDKThermostatsManager.h; sourceTree = "<group>"; };
 		D7C02E080926CB25396B7532 /* NestSDKAccessTokenCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestSDKAccessTokenCache.m; sourceTree = "<group>"; };
-		D7C02F0F814A47867B60313D /* HTMLAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLAttributedString.m; sourceTree = "<group>"; };
 		D7C02F48599AEC00AAF4F282 /* NestSDKRESTService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestSDKRESTService.m; sourceTree = "<group>"; };
 		D7C02F9D633BA5A29E2EF432 /* TBDWeatherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBDWeatherService.h; sourceTree = "<group>"; };
 		E76B13A71B6776A397D02ACE /* libPods-NestTravel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NestTravel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +180,7 @@
 				7481BEDB3EF90E33FE86A712 /* Pods */,
 				285EBE3284EC4D7B306CAE93 /* Frameworks */,
 				D7C02F6E9A1774930E7901E1 /* Core */,
+				D7C0275E8BDC1D536F5F424F /* ThirdParty */,
 			);
 			sourceTree = "<group>";
 		};
@@ -234,15 +235,6 @@
 			path = NestTravelTests;
 			sourceTree = "<group>";
 		};
-		D7C0212C691C5CE41ECC5F02 /* HTMLAttributedString */ = {
-			isa = PBXGroup;
-			children = (
-				D7C024886B2F740AC9A4800F /* HTMLAttributedString.h */,
-				D7C02F0F814A47867B60313D /* HTMLAttributedString.m */,
-			);
-			path = HTMLAttributedString;
-			sourceTree = "<group>";
-		};
 		D7C02189C27BAD440AD446DC /* NestSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +243,15 @@
 				D7C02759A7683AB8E256E996 /* NestSDKRESTServiceTests.m */,
 			);
 			path = NestSDK;
+			sourceTree = "<group>";
+		};
+		D7C02506DD9EB9399C26BD30 /* HTMLAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				D7C02D2CB8578035612A8F7A /* HTMLAttributedString.h */,
+				D7C0213F556F989FE6E925AD /* HTMLAttributedString.m */,
+			);
+			path = HTMLAttributedString;
 			sourceTree = "<group>";
 		};
 		D7C0250A5D32AD859601A0F0 /* NestSDK */ = {
@@ -286,6 +287,14 @@
 			path = NestSDK;
 			sourceTree = "<group>";
 		};
+		D7C0275E8BDC1D536F5F424F /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				D7C02506DD9EB9399C26BD30 /* HTMLAttributedString */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
 		D7C02A1CDBFD17C9DF650F6F /* Weather Service */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,7 +312,7 @@
 				D7C029E4CF9E610C747ED168 /* TBDWeatherData.h */,
 				D7C02493FC8FA01B6880303C /* TBDWeatherData.m */,
 				D7C0243FBF0BF1F31A988780 /* TBDWeatherServiceDataParser.m */,
-				D7C025E99390F61353989593 /* TBDWeatherServiceDataParserTests.h */,
+				D7C029CA97EF8A0E304D2C12 /* TBDWeatherServiceDataParser.h */,
 			);
 			path = "Weather Service";
 			sourceTree = "<group>";
@@ -317,7 +326,6 @@
 				D7C02D006C11F1CF5782EF68 /* Weather Service */,
 				D7C028BB986F3EB9CF58BD37 /* TBDUtils.m */,
 				D7C022190F0D4D84A8DFBC00 /* TBDUtils.h */,
-				D7C0212C691C5CE41ECC5F02 /* HTMLAttributedString */,
 				D7C02D931BEB6514F0012E0B /* TBDTravelSuggestion.m */,
 				D7C025ED2B139B8F30673875 /* TBDTravelSuggestion.h */,
 			);
@@ -561,9 +569,9 @@
 				D7C02C2206A0965D6E7F0EB0 /* NestSDKAccessTokenCache.m in Sources */,
 				D7C027C4B28E10A5507B3C15 /* TestsAppDelegate.m in Sources */,
 				D7C0231396D4293CD2D720D1 /* NestSDKSmokeCOAlarm.m in Sources */,
-				D7C024FBE2D7E4D3AE61CDEF /* HTMLAttributedString.m in Sources */,
 				D7C02A72BD176985E91705A7 /* WebViewController.m in Sources */,
 				D7C02DE0BB964CFB919F1FD7 /* TBDTravelSuggestion.m in Sources */,
+				D7C0216730452AEDA81062DB /* HTMLAttributedString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
