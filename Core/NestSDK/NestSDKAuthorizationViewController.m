@@ -1,6 +1,8 @@
 #import "NestSDKAuthorizationViewController.h"
 #import "UIColor+NestBlue.h"
 
+static const int kNavigationBarHeight = 64;
+
 @interface NestSDKAuthorizationViewController () <UIWebViewDelegate>
 
 @property(nonatomic, strong) UIWebView *webView;
@@ -38,7 +40,7 @@
     [self.view setBackgroundColor:[UIColor whiteColor]];
 
     // Add a navbar to the top
-    UINavigationBar *navBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, 320, 64)];
+    UINavigationBar *navBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, kNavigationBarHeight)];
     [self.view addSubview:navBar];
 
     // Add some items to the navigation bar
@@ -48,15 +50,10 @@
     [navBar pushNavigationItem:navItem animated:YES];
 
     // Add a uiwebview to take up the entire view (beneath the nav bar)
-    self.webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 64, 320, self.view.frame.size.height - 64)];
+    self.webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, kNavigationBarHeight, self.view.frame.size.width, self.view.frame.size.height - kNavigationBarHeight)];
     [self.webView setBackgroundColor:[UIColor nestBlue]];
     [self.webView setDelegate:self];
     [self.view addSubview:self.webView];
-
-//    self.webView = [[WKWebView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    [self.webView setBackgroundColor:[UIColor nestBlue]];
-//    [self.webView addObserver:self forKeyPath:@"URL" options:NSKeyValueObservingOptionNew context:nil];
-//    [self.view addSubview:self.webView];
 }
 
 //- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
